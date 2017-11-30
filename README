@@ -1,0 +1,15 @@
+### Learning Goals
+* Learn about SQL Joins
+* Understand what join is required to display a particular set of information
+
+### Instructions
+* Generate a database called `dog_park` in your terminal.
+* Use the provided `schema.sql` file to import data.
+
+
+1. Which collars have a known owner? Display only collars with known owners and those owners' names.
+2. For which collars is there no known owner? Display only collars without known owners.
+3. What collars are in our possession? Display all collars in our possession. If an owner exists for a given collar, display that also.
+4. What owners do we know about? Display all owners known to us. If a collar matches that owner, display the collar also.
+
+Use the provided `joins.sql` file to store your queries.
